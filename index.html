@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatdango - Movie Ticket App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎬 FLATDANGO</h1>
+        <p>BUY MOVIE TICKETS</p>
+    </header>
+
+    <main>
+        <section id="movie-list">
+            <h2>Movies</h2>
+            <ul id="films">
+                <li class="placeholder">Loading movies...</li>
+            </ul>
+        </section>
+
+        <section id="movie-details">
+            <img id="movie-poster" src="" alt="Movie Poster">
+            <h2 id="movie-title"></h2>
+            <p><strong>Runtime:</strong> <span id="movie-runtime"></span> minutes</p>
+            <p><strong>Showtime:</strong> <span id="movie-showtime"></span></p>
+            <p><strong>Description:</strong> <span id="movie-description"></span></p>
+            <p><strong>Tickets Available:</strong> <span id="movie-tickets"></span></p>
+            <button id="buy-ticket">Buy Ticket</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
